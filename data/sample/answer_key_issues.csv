@@ -1,0 +1,247 @@
+issue_id,issue_type,file,row_or_page,invoice_no_or_txn_id,description
+customer_name_variant_001,customer_name_variant,both,,,"customer=روضة مارت; variants=['روضة مارت', 'Al Rawda Mart', 'روضة مارت Co.', 'روضة  مارت']"
+customer_name_variant_002,customer_name_variant,both,,,"customer=Basateen Al Nakheel Hotels; variants=['Basateen Al Nakheel Hotels', 'مجموعة فنادق بساتين النخيل', 'Basateen Al Nakheel Hotels Co.', 'Basateen  Al Nakheel Hotels']"
+customer_name_variant_003,customer_name_variant,both,,,"customer=سوبرستور الأندلس; variants=['سوبرستور الأندلس', 'Al Andalus Superstore', 'سوبرستور الأندلس Co.', 'سوبرستور  الأندلس']"
+customer_name_variant_004,customer_name_variant,both,,,"customer=Najd Gourmet; variants=['Najd Gourmet', 'نجد غورميه', 'Najd Gourmet Co.', 'Najd  Gourmet']"
+customer_name_variant_005,customer_name_variant,both,,,"customer=Al Noor Supermarket; variants=['Al Noor Supermarket', 'سوبرماركت النور', 'Al Noor Supermarket Co.', 'Al  Noor Supermarket']"
+customer_name_variant_006,customer_name_variant,both,,,"customer=بقالة الرياض الحديثة; variants=['بقالة الرياض الحديثة', 'Bakalah Riyadh Al Haditha', 'بقالة الرياض الحديثة Co.', 'بقالة  الرياض الحديثة']"
+related_party_name_variants_001,related_party_name_variants,both,,,"customer=Al Nokhba Trading; variants=['Al Nokhba Trading', 'النخبة للتجارة', 'النخبة للتجارة Co.', 'النخبة  للتجارة']"
+duplicate_same_number_001,duplicate_same_number,invoices_12m.xlsx,438 and 858,INV-2026-0430,same row appears twice
+duplicate_same_number_002,duplicate_same_number,invoices_12m.xlsx,755 and 859,INV-2026-0742,same row appears twice
+duplicate_same_number_003,duplicate_same_number,invoices_12m.xlsx,665 and 860,INV-2026-0654,same row appears twice
+duplicate_same_number_004,duplicate_same_number,invoices_12m.xlsx,615 and 861,INV-2026-0607,same row appears twice
+duplicate_same_number_005,duplicate_same_number,invoices_12m.xlsx,795 and 862,INV-2026-0783,same row appears twice
+duplicate_same_number_006,duplicate_same_number,invoices_12m.xlsx,790 and 863,INV-2026-0778,same row appears twice
+duplicate_reissued_001,duplicate_reissued,invoices_12m.xlsx,91 (copy) / 88 (original),INV-2025-0091,"original_invoice_no=INV-2025-0088; same customer, date and amount; only the original was paid"
+duplicate_reissued_002,duplicate_reissued,invoices_12m.xlsx,605 (copy) / 603 (original),INV-2026-0597,"original_invoice_no=INV-2026-0595; same customer, date and amount; only the original was paid"
+duplicate_reissued_003,duplicate_reissued,invoices_12m.xlsx,673 (copy) / 674 (original),INV-2026-0662,"original_invoice_no=INV-2026-0663; same customer, date and amount; only the original was paid"
+duplicate_reissued_004,duplicate_reissued,invoices_12m.xlsx,742 (copy) / 738 (original),INV-2026-0729,"original_invoice_no=INV-2026-0725; same customer, date and amount; only the original was paid"
+credit_note_linked_001,credit_note_linked,invoices_12m.xlsx,129,CN-2025-0001,credit_note=CN-2025-0001; original_invoice_no=INV-2025-0120; customer paid the original less this credit
+credit_note_linked_002,credit_note_linked,invoices_12m.xlsx,164,CN-2025-0002,credit_note=CN-2025-0002; original_invoice_no=INV-2025-0145; customer paid the original less this credit
+credit_note_unlinked_001,credit_note_unlinked,invoices_12m.xlsx,241,CN-2026-0003,no Original Invoice No
+credit_note_unlinked_002,credit_note_unlinked,invoices_12m.xlsx,262,CN-2026-0004,no Original Invoice No
+credit_note_linked_003,credit_note_linked,invoices_12m.xlsx,272,CN-2026-0005,credit_note=CN-2026-0005; original_invoice_no=INV-2026-0217; customer paid the original less this credit
+credit_note_unlinked_003,credit_note_unlinked,invoices_12m.xlsx,337,CN-2026-0006,no Original Invoice No
+credit_note_linked_004,credit_note_linked,invoices_12m.xlsx,376,CN-2026-0007,credit_note=CN-2026-0007; original_invoice_no=INV-2026-0254; customer paid the original less this credit
+credit_note_linked_005,credit_note_linked,invoices_12m.xlsx,406,CN-2026-0008,credit_note=CN-2026-0008; original_invoice_no=INV-2026-0357; customer paid the original less this credit
+credit_note_linked_006,credit_note_linked,invoices_12m.xlsx,521,CN-2026-0009,credit_note=CN-2026-0009; original_invoice_no=INV-2026-0314; original was paid in full; the credit was refunded by a bank debit
+credit_note_linked_007,credit_note_linked,invoices_12m.xlsx,565,CN-2026-0010,credit_note=CN-2026-0010; original_invoice_no=INV-2026-0509; customer paid the original less this credit
+credit_note_linked_008,credit_note_linked,invoices_12m.xlsx,575,CN-2026-0011,credit_note=CN-2026-0011; original_invoice_no=INV-2026-0482; original was paid in full; the credit was refunded by a bank debit
+credit_note_linked_009,credit_note_linked,invoices_12m.xlsx,620,CN-2026-0012,credit_note=CN-2026-0012; original_invoice_no=INV-2026-0575; customer paid the original less this credit
+credit_note_linked_010,credit_note_linked,invoices_12m.xlsx,621,CN-2026-0013,credit_note=CN-2026-0013; original_invoice_no=INV-2026-0503; original was paid in full; the credit was refunded by a bank debit
+credit_note_linked_011,credit_note_linked,invoices_12m.xlsx,655,CN-2026-0014,credit_note=CN-2026-0014; original_invoice_no=INV-2026-0568; original was paid in full; the credit was refunded by a bank debit
+credit_note_linked_012,credit_note_linked,invoices_12m.xlsx,701,CN-2026-0015,credit_note=CN-2026-0015; original_invoice_no=INV-2026-0569; original was paid in full; the credit was refunded by a bank debit
+credit_note_linked_013,credit_note_linked,invoices_12m.xlsx,736,CN-2026-0016,credit_note=CN-2026-0016; original_invoice_no=INV-2026-0694; customer paid the original less this credit
+credit_note_linked_014,credit_note_linked,invoices_12m.xlsx,737,CN-2026-0017,credit_note=CN-2026-0017; original_invoice_no=INV-2026-0672; original was paid in full; the credit was refunded by a bank debit
+arithmetic_error_001,arithmetic_error,invoices_12m.xlsx,45,INV-2025-0044,Total does not equal Net + VAT
+arithmetic_error_002,arithmetic_error,invoices_12m.xlsx,115,INV-2025-0115,Total does not equal Net + VAT
+arithmetic_error_003,arithmetic_error,invoices_12m.xlsx,258,INV-2026-0255,VAT computed at 5%
+arithmetic_error_004,arithmetic_error,invoices_12m.xlsx,418,INV-2026-0410,VAT computed at 0%
+arithmetic_error_005,arithmetic_error,invoices_12m.xlsx,475,INV-2026-0467,Total does not equal Net + VAT
+arithmetic_error_006,arithmetic_error,invoices_12m.xlsx,480,INV-2026-0472,Total does not equal Net + VAT
+arithmetic_error_007,arithmetic_error,invoices_12m.xlsx,547,INV-2026-0538,VAT computed at 5%
+arithmetic_error_008,arithmetic_error,invoices_12m.xlsx,567,INV-2026-0557,VAT computed at 0%
+missing_due_date_001,missing_due_date,invoices_12m.xlsx,380,INV-2026-0373,Due Date empty
+missing_due_date_002,missing_due_date,invoices_12m.xlsx,283,INV-2026-0278,Due Date empty
+missing_due_date_003,missing_due_date,invoices_12m.xlsx,694,INV-2026-0683,Due Date empty
+missing_due_date_004,missing_due_date,invoices_12m.xlsx,263,INV-2026-0259,Due Date empty
+missing_due_date_005,missing_due_date,invoices_12m.xlsx,824,INV-2026-0812,Due Date empty
+missing_due_date_006,missing_due_date,invoices_12m.xlsx,687,INV-2026-0676,Due Date empty
+missing_due_date_007,missing_due_date,invoices_12m.xlsx,813,INV-2026-0801,Due Date empty
+missing_due_date_008,missing_due_date,invoices_12m.xlsx,639,INV-2026-0629,Due Date empty
+missing_due_date_009,missing_due_date,invoices_12m.xlsx,14,INV-2025-0013,Due Date empty
+missing_due_date_010,missing_due_date,invoices_12m.xlsx,131,INV-2025-0130,Due Date empty
+missing_due_date_011,missing_due_date,invoices_12m.xlsx,322,INV-2026-0317,Due Date empty
+missing_due_date_012,missing_due_date,invoices_12m.xlsx,596,INV-2026-0587,Due Date empty
+missing_customer_vat_001,missing_customer_vat,invoices_12m.xlsx,695,INV-2026-0684,Customer VAT No empty
+missing_customer_vat_002,missing_customer_vat,invoices_12m.xlsx,336,INV-2026-0331,Customer VAT No empty
+missing_customer_vat_003,missing_customer_vat,invoices_12m.xlsx,278,INV-2026-0273,Customer VAT No empty
+missing_customer_vat_004,missing_customer_vat,invoices_12m.xlsx,188,INV-2025-0186,Customer VAT No empty
+missing_customer_vat_005,missing_customer_vat,invoices_12m.xlsx,465,INV-2026-0457,Customer VAT No empty
+missing_customer_vat_006,missing_customer_vat,invoices_12m.xlsx,129,CN-2025-0001,Customer VAT No empty
+date_text_format_001,date_text_format,invoices_12m.xlsx,810,INV-2026-0798,value=15/09/2026
+date_text_format_002,date_text_format,invoices_12m.xlsx,543,INV-2026-0534,value=5 May 2026
+date_text_format_003,date_text_format,invoices_12m.xlsx,274,INV-2026-0269,value=26/01/2026
+date_text_format_004,date_text_format,invoices_12m.xlsx,171,INV-2025-0169,value=16/12/2025
+date_text_format_005,date_text_format,invoices_12m.xlsx,400,INV-2026-0393,value=10/03/2026
+date_text_format_006,date_text_format,invoices_12m.xlsx,489,INV-2026-0481,value=13 Apr 2026
+date_text_format_007,date_text_format,invoices_12m.xlsx,786,INV-2026-0774,value=31/08/2026
+date_text_format_008,date_text_format,invoices_12m.xlsx,249,INV-2026-0246,value=19/01/2026
+date_text_format_009,date_text_format,invoices_12m.xlsx,139,INV-2025-0138,value=30 Nov 2025
+date_text_format_010,date_text_format,invoices_12m.xlsx,17,INV-2025-0016,value=9 Oct 2025
+date_arabic_indic_001,date_arabic_indic,invoices_12m.xlsx,295,INV-2026-0290,value=٠٢/٠٢/٢٠٢٦
+date_arabic_indic_002,date_arabic_indic,invoices_12m.xlsx,841,INV-2026-0829,value=٢٤/٠٩/٢٠٢٦
+date_arabic_indic_003,date_arabic_indic,invoices_12m.xlsx,718,INV-2026-0707,value=٢٧/٠٧/٢٠٢٦
+date_arabic_indic_004,date_arabic_indic,invoices_12m.xlsx,288,INV-2026-0283,value=٢٩/٠١/٢٠٢٦
+date_arabic_indic_005,date_arabic_indic,invoices_12m.xlsx,89,INV-2025-0089,value=٠٦/١١/٢٠٢٥
+amount_text_commas_001,amount_text_commas,invoices_12m.xlsx,261,INV-2026-0258,amounts stored as text with thousands commas
+amount_text_commas_002,amount_text_commas,invoices_12m.xlsx,812,INV-2026-0800,amounts stored as text with thousands commas
+amount_text_commas_003,amount_text_commas,invoices_12m.xlsx,568,INV-2026-0558,amounts stored as text with thousands commas
+amount_text_commas_004,amount_text_commas,invoices_12m.xlsx,310,INV-2026-0305,amounts stored as text with thousands commas
+amount_text_commas_005,amount_text_commas,invoices_12m.xlsx,354,INV-2026-0348,amounts stored as text with thousands commas
+amount_text_commas_006,amount_text_commas,invoices_12m.xlsx,598,INV-2026-0590,amounts stored as text with thousands commas
+amount_text_commas_007,amount_text_commas,invoices_12m.xlsx,415,INV-2026-0407,amounts stored as text with thousands commas
+amount_text_commas_008,amount_text_commas,invoices_12m.xlsx,41,INV-2025-0040,amounts stored as text with thousands commas
+amount_text_commas_009,amount_text_commas,invoices_12m.xlsx,647,INV-2026-0637,amounts stored as text with thousands commas
+amount_text_commas_010,amount_text_commas,invoices_12m.xlsx,844,INV-2026-0832,amounts stored as text with thousands commas
+unpaid_invoice_001,unpaid_invoice,invoices_12m.xlsx,178,INV-2025-0176,no payment in the whole period; older than 90 days at period end
+unpaid_invoice_002,unpaid_invoice,invoices_12m.xlsx,202,INV-2025-0200,no payment in the whole period; older than 90 days at period end
+unpaid_invoice_003,unpaid_invoice,invoices_12m.xlsx,304,INV-2026-0299,no payment in the whole period; older than 90 days at period end
+unpaid_invoice_004,unpaid_invoice,invoices_12m.xlsx,310,INV-2026-0305,no payment in the whole period; older than 90 days at period end
+unpaid_invoice_005,unpaid_invoice,invoices_12m.xlsx,324,INV-2026-0319,no payment in the whole period; older than 90 days at period end
+unpaid_invoice_006,unpaid_invoice,invoices_12m.xlsx,424,INV-2026-0416,no payment in the whole period; older than 90 days at period end
+unpaid_invoice_007,unpaid_invoice,invoices_12m.xlsx,449,INV-2026-0441,no payment in the whole period; older than 90 days at period end
+unpaid_invoice_008,unpaid_invoice,invoices_12m.xlsx,467,INV-2026-0459,no payment in the whole period; older than 90 days at period end
+unpaid_invoice_009,unpaid_invoice,invoices_12m.xlsx,491,INV-2026-0483,no payment in the whole period; older than 90 days at period end
+missing_invoice_number_001,missing_invoice_number,invoices_12m.xlsx,,INV-2025-0079,number never appears in the export (gap in the sequence)
+missing_invoice_number_002,missing_invoice_number,invoices_12m.xlsx,,INV-2026-0573,number never appears in the export (gap in the sequence)
+missing_invoice_number_003,missing_invoice_number,invoices_12m.xlsx,,INV-2026-0577,number never appears in the export (gap in the sequence)
+missing_invoice_number_004,missing_invoice_number,invoices_12m.xlsx,,INV-2026-0589,number never appears in the export (gap in the sequence)
+missing_invoice_number_005,missing_invoice_number,invoices_12m.xlsx,,INV-2026-0696,number never appears in the export (gap in the sequence)
+missing_invoice_number_006,missing_invoice_number,invoices_12m.xlsx,,INV-2026-0761,number never appears in the export (gap in the sequence)
+payment_for_invoice_outside_period_001,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0001,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_002,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0002,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_003,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0005,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_004,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0006,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_005,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0008,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_006,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0011,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_007,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0012,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_008,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0015,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_009,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0017,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_010,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0018,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_011,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0019,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_012,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0024,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_013,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0026,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_014,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0028,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_015,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0029,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_016,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0031,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_017,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0035,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_018,payment_for_invoice_outside_period,bank_statement_12m.pdf,1,T0036,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_019,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0037,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_020,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0038,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_021,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0039,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_022,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0040,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_023,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0041,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_024,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0047,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_025,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0048,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_026,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0049,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_027,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0051,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_028,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0052,deposit for an invoice issued before the 12 months; no invoice in the file
+small_difference_payment_001,small_difference_payment,bank_statement_12m.pdf,2,T0053,invoice=INV-2025-0023; diff SAR -1
+non_sales_deposit_001,non_sales_deposit,bank_statement_12m.pdf,2,T0057,category=loan
+overpayment_001,overpayment,bank_statement_12m.pdf,2,T0061,invoice=INV-2025-0024; deposit exceeds the invoice
+payment_for_invoice_outside_period_029,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0066,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_030,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0069,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_031,payment_for_invoice_outside_period,bank_statement_12m.pdf,2,T0071,deposit for an invoice issued before the 12 months; no invoice in the file
+multi_invoice_deposit_001,multi_invoice_deposit,bank_statement_12m.pdf,2,T0072,"one deposit pays INV-2025-0015, INV-2025-0055"
+non_sales_deposit_002,non_sales_deposit,bank_statement_12m.pdf,3,T0075,category=own_account_transfer
+small_difference_payment_002,small_difference_payment,bank_statement_12m.pdf,3,T0077,invoice=INV-2025-0022; diff SAR -2
+payment_for_invoice_outside_period_032,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0078,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_033,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0080,deposit for an invoice issued before the 12 months; no invoice in the file
+multi_invoice_deposit_002,multi_invoice_deposit,bank_statement_12m.pdf,3,T0082,"one deposit pays INV-2025-0045, INV-2025-0062, INV-2025-0029"
+payment_for_invoice_outside_period_034,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0088,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_035,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0089,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_036,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0090,deposit for an invoice issued before the 12 months; no invoice in the file
+non_sales_deposit_003,non_sales_deposit,bank_statement_12m.pdf,3,T0091,category=own_account_transfer
+payment_for_invoice_outside_period_037,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0092,deposit for an invoice issued before the 12 months; no invoice in the file
+non_sales_deposit_004,non_sales_deposit,bank_statement_12m.pdf,3,T0095,category=own_account_transfer
+payment_for_invoice_outside_period_038,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0100,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_039,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0103,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_040,payment_for_invoice_outside_period,bank_statement_12m.pdf,3,T0108,deposit for an invoice issued before the 12 months; no invoice in the file
+multi_invoice_deposit_003,multi_invoice_deposit,bank_statement_12m.pdf,4,T0110,"one deposit pays INV-2025-0041, INV-2025-0042, INV-2025-0054, INV-2025-0060"
+payment_for_invoice_outside_period_041,payment_for_invoice_outside_period,bank_statement_12m.pdf,4,T0112,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_042,payment_for_invoice_outside_period,bank_statement_12m.pdf,4,T0113,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_043,payment_for_invoice_outside_period,bank_statement_12m.pdf,4,T0114,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_044,payment_for_invoice_outside_period,bank_statement_12m.pdf,4,T0117,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_045,payment_for_invoice_outside_period,bank_statement_12m.pdf,4,T0121,deposit for an invoice issued before the 12 months; no invoice in the file
+payment_for_invoice_outside_period_046,payment_for_invoice_outside_period,bank_statement_12m.pdf,4,T0125,deposit for an invoice issued before the 12 months; no invoice in the file
+small_difference_payment_003,small_difference_payment,bank_statement_12m.pdf,4,T0139,invoice=INV-2025-0066; diff SAR +2
+non_sales_deposit_005,non_sales_deposit,bank_statement_12m.pdf,5,T0179,category=own_account_transfer
+non_sales_deposit_006,non_sales_deposit,bank_statement_12m.pdf,7,T0219,category=supplier_refund
+credit_note_smaller_payment_001,credit_note_smaller_payment,bank_statement_12m.pdf,7,T0220,invoice=INV-2025-0145
+credit_note_smaller_payment_002,credit_note_smaller_payment,bank_statement_12m.pdf,7,T0224,invoice=INV-2025-0120
+non_sales_deposit_007,non_sales_deposit,bank_statement_12m.pdf,7,T0249,category=owner_injection
+multi_invoice_deposit_004,multi_invoice_deposit,bank_statement_12m.pdf,8,T0275,"one deposit pays INV-2025-0170, INV-2025-0168, INV-2025-0177, INV-2026-0210"
+overpayment_002,overpayment,bank_statement_12m.pdf,8,T0277,invoice=INV-2025-0139; deposit exceeds the invoice
+non_sales_deposit_008,non_sales_deposit,bank_statement_12m.pdf,8,T0278,category=own_account_transfer
+small_difference_payment_004,small_difference_payment,bank_statement_12m.pdf,8,T0279,invoice=INV-2025-0203; diff SAR -1
+credit_note_smaller_payment_003,credit_note_smaller_payment,bank_statement_12m.pdf,9,T0304,invoice=INV-2026-0217
+multi_invoice_deposit_005,multi_invoice_deposit,bank_statement_12m.pdf,9,T0308,"one deposit pays INV-2025-0197, INV-2026-0220, INV-2026-0244"
+small_difference_payment_005,small_difference_payment,bank_statement_12m.pdf,10,T0339,invoice=INV-2026-0250; diff SAR -3
+non_sales_deposit_009,non_sales_deposit,bank_statement_12m.pdf,10,T0344,category=supplier_refund
+multi_invoice_deposit_006,multi_invoice_deposit,bank_statement_12m.pdf,10,T0353,"one deposit pays INV-2026-0252, INV-2026-0280"
+non_sales_deposit_010,non_sales_deposit,bank_statement_12m.pdf,11,T0386,category=supplier_refund
+non_sales_deposit_011,non_sales_deposit,bank_statement_12m.pdf,11,T0390,category=owner_injection
+non_sales_deposit_012,non_sales_deposit,bank_statement_12m.pdf,11,T0394,category=own_account_transfer
+non_sales_deposit_013,non_sales_deposit,bank_statement_12m.pdf,12,T0398,category=own_account_transfer
+small_difference_payment_006,small_difference_payment,bank_statement_12m.pdf,12,T0428,invoice=INV-2026-0317; diff SAR -3
+credit_note_smaller_payment_004,credit_note_smaller_payment,bank_statement_12m.pdf,12,T0430,invoice=INV-2026-0357
+overpayment_003,overpayment,bank_statement_12m.pdf,13,T0437,invoice=INV-2026-0316; deposit exceeds the invoice
+non_sales_deposit_014,non_sales_deposit,bank_statement_12m.pdf,13,T0443,category=own_account_transfer
+multi_invoice_deposit_007,multi_invoice_deposit,bank_statement_12m.pdf,13,T0449,"one deposit pays INV-2026-0361, INV-2026-0386"
+credit_note_smaller_payment_005,credit_note_smaller_payment,bank_statement_12m.pdf,13,T0450,invoice=INV-2026-0254
+small_difference_payment_007,small_difference_payment,bank_statement_12m.pdf,14,T0474,invoice=INV-2026-0376; diff SAR -3
+multi_invoice_deposit_008,multi_invoice_deposit,bank_statement_12m.pdf,14,T0476,"one deposit pays INV-2026-0310, INV-2026-0389, INV-2026-0363, INV-2026-0291"
+multi_invoice_deposit_009,multi_invoice_deposit,bank_statement_12m.pdf,14,T0504,"one deposit pays INV-2026-0263, INV-2026-0216, INV-2026-0287, INV-2026-0324"
+non_sales_deposit_015,non_sales_deposit,bank_statement_12m.pdf,15,T0513,category=own_account_transfer
+small_difference_payment_008,small_difference_payment,bank_statement_12m.pdf,15,T0523,invoice=INV-2026-0364; diff SAR +1
+multi_invoice_deposit_010,multi_invoice_deposit,bank_statement_12m.pdf,15,T0536,"one deposit pays INV-2026-0309, INV-2026-0279"
+overpayment_004,overpayment,bank_statement_12m.pdf,16,T0565,invoice=INV-2026-0446; deposit exceeds the invoice
+non_sales_deposit_016,non_sales_deposit,bank_statement_12m.pdf,17,T0600,category=supplier_refund
+multi_invoice_deposit_011,multi_invoice_deposit,bank_statement_12m.pdf,17,T0608,"one deposit pays INV-2026-0365, INV-2026-0370"
+multi_invoice_deposit_012,multi_invoice_deposit,bank_statement_12m.pdf,17,T0610,"one deposit pays INV-2026-0421, INV-2026-0394"
+multi_invoice_deposit_013,multi_invoice_deposit,bank_statement_12m.pdf,18,T0617,"one deposit pays INV-2026-0466, INV-2026-0493"
+small_difference_payment_009,small_difference_payment,bank_statement_12m.pdf,18,T0626,invoice=INV-2026-0479; diff SAR +1
+overpayment_005,overpayment,bank_statement_12m.pdf,18,T0630,invoice=INV-2026-0511; deposit exceeds the invoice
+small_difference_payment_010,small_difference_payment,bank_statement_12m.pdf,18,T0639,invoice=INV-2026-0454; diff SAR +3
+credit_note_smaller_payment_006,credit_note_smaller_payment,bank_statement_12m.pdf,19,T0650,invoice=INV-2026-0509
+multi_invoice_deposit_014,multi_invoice_deposit,bank_statement_12m.pdf,19,T0671,"one deposit pays INV-2026-0532, INV-2026-0542"
+multi_invoice_deposit_015,multi_invoice_deposit,bank_statement_12m.pdf,19,T0672,"one deposit pays INV-2026-0538, INV-2026-0500, INV-2026-0530, INV-2026-0559"
+small_difference_payment_011,small_difference_payment,bank_statement_12m.pdf,19,T0676,invoice=INV-2026-0564; diff SAR +2
+multi_invoice_deposit_016,multi_invoice_deposit,bank_statement_12m.pdf,20,T0710,"one deposit pays INV-2026-0539, INV-2026-0576"
+credit_note_smaller_payment_007,credit_note_smaller_payment,bank_statement_12m.pdf,20,T0718,invoice=INV-2026-0575
+non_sales_deposit_017,non_sales_deposit,bank_statement_12m.pdf,21,T0722,category=owner_injection
+overpayment_006,overpayment,bank_statement_12m.pdf,21,T0756,invoice=INV-2026-0587; deposit exceeds the invoice
+non_sales_deposit_018,non_sales_deposit,bank_statement_12m.pdf,22,T0762,category=own_account_transfer
+multi_invoice_deposit_017,multi_invoice_deposit,bank_statement_12m.pdf,22,T0785,"one deposit pays INV-2026-0637, INV-2026-0618"
+multi_invoice_deposit_018,multi_invoice_deposit,bank_statement_12m.pdf,23,T0802,"one deposit pays INV-2026-0627, INV-2026-0631, INV-2026-0629"
+multi_invoice_deposit_019,multi_invoice_deposit,bank_statement_12m.pdf,23,T0816,"one deposit pays INV-2026-0642, INV-2026-0656"
+non_sales_deposit_019,non_sales_deposit,bank_statement_12m.pdf,25,T0866,category=supplier_refund
+overpayment_007,overpayment,bank_statement_12m.pdf,25,T0874,invoice=INV-2026-0679; deposit exceeds the invoice
+multi_invoice_deposit_020,multi_invoice_deposit,bank_statement_12m.pdf,25,T0875,"one deposit pays INV-2026-0686, INV-2026-0706"
+credit_note_smaller_payment_008,credit_note_smaller_payment,bank_statement_12m.pdf,25,T0879,invoice=INV-2026-0694
+overpayment_008,overpayment,bank_statement_12m.pdf,27,T0939,invoice=INV-2026-0749; deposit exceeds the invoice
+small_difference_payment_012,small_difference_payment,bank_statement_12m.pdf,27,T0942,invoice=INV-2026-0708; diff SAR +3
+split_payment_001,split_payment,bank_statement_12m.pdf,4,INV-2025-0067,"txn_ids=T0115,T0142"
+split_payment_002,split_payment,bank_statement_12m.pdf,7,INV-2025-0167,"txn_ids=T0222,T0242"
+split_payment_003,split_payment,bank_statement_12m.pdf,8,INV-2025-0186,"txn_ids=T0263,T0292"
+split_payment_004,split_payment,bank_statement_12m.pdf,9,INV-2026-0219,"txn_ids=T0320,T0348"
+split_payment_005,split_payment,bank_statement_12m.pdf,12,INV-2026-0380,"txn_ids=T0407,T0530"
+split_payment_006,split_payment,bank_statement_12m.pdf,12,INV-2026-0286,"txn_ids=T0414,T0534"
+split_payment_007,split_payment,bank_statement_12m.pdf,13,INV-2026-0360,"txn_ids=T0460,T0521"
+split_payment_008,split_payment,bank_statement_12m.pdf,13,INV-2026-0382,"txn_ids=T0466,T0533"
+split_payment_009,split_payment,bank_statement_12m.pdf,14,INV-2026-0211,"txn_ids=T0483,T0563"
+split_payment_010,split_payment,bank_statement_12m.pdf,14,INV-2026-0328,"txn_ids=T0486,T0524"
+split_payment_011,split_payment,bank_statement_12m.pdf,14,INV-2026-0355,"txn_ids=T0495,T0546"
+split_payment_012,split_payment,bank_statement_12m.pdf,15,INV-2026-0426,"txn_ids=T0527,T0589"
+split_payment_013,split_payment,bank_statement_12m.pdf,16,INV-2026-0405,"txn_ids=T0551,T0577"
+split_payment_014,split_payment,bank_statement_12m.pdf,16,INV-2026-0461,"txn_ids=T0554,T0592"
+split_payment_015,split_payment,bank_statement_12m.pdf,17,INV-2026-0436,"txn_ids=T0606,T0635"
+split_payment_016,split_payment,bank_statement_12m.pdf,18,INV-2026-0554,"txn_ids=T0647,T0668"
+split_payment_017,split_payment,bank_statement_12m.pdf,19,INV-2026-0515,"txn_ids=T0665,T0702"
+split_payment_018,split_payment,bank_statement_12m.pdf,20,INV-2026-0571,"txn_ids=T0698,T0740"
+split_payment_019,split_payment,bank_statement_12m.pdf,20,INV-2026-0566,"txn_ids=T0719,T0733"
+split_payment_020,split_payment,bank_statement_12m.pdf,22,INV-2026-0608,"txn_ids=T0783,T0809"
+split_payment_021,split_payment,bank_statement_12m.pdf,22,INV-2026-0606,"txn_ids=T0789,T0810"
+split_payment_022,split_payment,bank_statement_12m.pdf,24,INV-2026-0682,"txn_ids=T0856,T0869"
+split_payment_023,split_payment,bank_statement_12m.pdf,25,INV-2026-0710,"txn_ids=T0882,T0914"
+split_payment_024,split_payment,bank_statement_12m.pdf,25,INV-2026-0658,"txn_ids=T0899,T0926"
+split_payment_025,split_payment,bank_statement_12m.pdf,26,INV-2026-0730,"txn_ids=T0922,T0950"
+circular_money_001,circular_money,both,9,INV-2026-0311,deposit=T0322; sent back=T0342
+circular_money_002,circular_money,both,16,INV-2026-0499,deposit=T0555; sent back=T0566
+circular_money_003,circular_money,both,17,INV-2026-0514,deposit=T0582; sent back=T0594
+circular_money_004,circular_money,both,19,INV-2026-0580,deposit=T0649; sent back=T0656
+circular_money_005,circular_money,both,23,INV-2026-0684,deposit=T0801; sent back=T0806
+month_without_customer_payments_001,month_without_customer_payments,bank_statement_12m.pdf,,2026-03,"March 2026 has only SAR 38,324.49 of customer payments while invoices were issued as usual"
+blurry_page_001,blurry_page,bank_statement_12m.pdf,7,,page is a blurry image with no text
+edited_balance_001,edited_balance,bank_statement_12m.pdf,12,T0406,"printed balance is SAR 18,500.00 higher than the true running balance from this row to the end of the page"
