@@ -13,14 +13,15 @@ def _iso(d):
 
 
 def invoice_row(a: Analysis, inv) -> dict:
-    ms = a.matches_by_inv.get(inv.no, [])
+    # A row left out as a duplicate is not paid by anything; its payments belong to the original row.
+    ms = [] if inv.row in a.skipped else a.matches_by_inv.get(inv.no, [])
     status = a.status(inv)
     lp = a.last_payment(inv)
     return {
         "kind": "invoice", "id": f"row{inv.row}", "no": inv.no, "date": _iso(inv.date), "due": _iso(a.due(inv)), "due_assumed": inv.due is None,
         "customer": a.registry.display(inv.customer_id) if inv.customer_id else inv.customer_name,
         "name_in_file": inv.customer_name, "net": inv.net, "vat": inv.vat, "total": inv.total, "type": inv.kind,
-        "status": status, "paid": a.paid(inv), "outstanding": max(0, a.want(inv) - a.paid(inv)) if inv.kind == "Invoice" and status != "not used (duplicate)" else None,
+        "status": status, "paid": sum(m.applied for m in ms), "outstanding": max(0, a.want(inv) - a.paid(inv)) if inv.kind == "Invoice" and status != "not used (duplicate)" else None,
         "days_to_pay": (lp - inv.date).days if lp and status == "paid" else None,
         "days_overdue": a._overdue_days(inv) or None,
         "paid_by": [{"txn": m.txn_id, "amount": m.applied, "how": m.method, "confidence": m.confidence} for m in ms],
